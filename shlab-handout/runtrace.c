@@ -329,7 +329,7 @@ int main(int argc, char **argv)
  * clean - clean up any stray jobs or shells 
  */
 void clean() {
-    system("/bin/kill tsh tshref mytstpp mytstps mycat myenv myintp myints myspin1 myspin2 mysplit > /dev/null 2>&1");
+    system("/bin/killall tsh tshref mytstpp mytstps mycat myenv myintp myints myspin1 myspin2 mysplit > /dev/null 2>&1");
 }
 
 /*
